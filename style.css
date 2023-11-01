@@ -1,0 +1,88 @@
+body{
+    background-color: #7743DB;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.container{
+    max-width: 500px;
+}
+.kartu{
+    background-color: #C3ACD0;
+    text-align: center;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgb(173, 190, 221, 0.3);
+    margin-top: 30px;
+}
+.mein{
+     font-size: 0;
+     padding: 1.00rem;
+}
+.title{
+    font-size: 2rem;
+    margin: 0 0 0.70rem;
+    color: #FFFBF5;
+}
+.isi img{
+    width: 200px;
+    height: 250px;
+}
+.waktu-sesi{
+    display: inline-block;
+    margin-left: 4px;
+}
+.waktu-sesi:first-child{
+    margin-left: 0;
+}
+.waktu-sesi>.value{
+    background-color: #F7EFE5;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 8px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 68px;
+}
+.label-waktu{
+    font-size: 15px;
+    padding: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+.fan{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: end;
+    height: 15px;
+    color: #F7EFE5;
+}
+@media screen and (max-width: 768px) {
+    .waktu-sesi>.value {
+        height: 50px;
+        width: 50px;
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+    .label-waktu {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .isi img {
+        width: 100%;
+        height: auto;
+    }
+}
+.kartu {
+    width: 100%;
+}
+.waktu-sesi {
+    margin-left: 2%;
+}
+
+
